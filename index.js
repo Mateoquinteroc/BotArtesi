@@ -16,4 +16,4 @@ const tweet = async () => {
   }
 };
 
-setInterval(tweet, ONE_HOUR * 3);
+setInterval(tweet, 10_000);
